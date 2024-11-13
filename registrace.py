@@ -6,7 +6,7 @@ print("jste zaregistrován!")
 
 while True:
     name1 = input("zadejte vase jmeno: ")
-    if name1 == name:
+    if name1 == Howard Roark:
         password1 = input("zadejte vase heslo: ")
         if password1 == password:
             print("vítejte v aplikaci!")
