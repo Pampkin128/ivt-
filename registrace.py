@@ -12,8 +12,8 @@ while True:
             print("vítejte v aplikaci!")
             break
         else:
-            print("zadano spatne heslo!")
+            print("NIG!")
             break
     else:
-        print("zadane spatne jmeno!")
+        print("NIG!")
         break
