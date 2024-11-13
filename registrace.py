@@ -3,4 +3,17 @@ name = input("jaké je vaše vaše jméno: ")
 password = input("zadejte vaše heslo: ")
 time.sleep(1)
 print("jste zaregistrován!")
-#gabik je fesak
+
+while True:
+    name1 = input("zadejte vase jmeno: ")
+    if name1 == name:
+        password1 = input("zadejte vase heslo: ")
+        if password1 == password:
+            print("vítejte v aplikaci!")
+            break
+        else:
+            print("zadano spatne heslo!")
+            break
+    else:
+        print("zadane spatne jmeno!")
+        break
